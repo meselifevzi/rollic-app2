@@ -1,0 +1,85 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #45187f;
+    font-family: Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+a{
+    text-decoration: none;
+    background-color: transparent;
+}
+header{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+} 
+
+.logo{
+    width: 6.875rem;
+    color: #45187f;
+}
+.separator{
+    background-color: #ccc;
+    width: 1px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    align-self: stretch;     
+}
+.nav-list{
+    
+    list-style-type:none ;
+    display: flex;
+    flex-direction: row;  /*zaten default olarak flex direction rowdur!! */
+}
+
+.nav-item-a{
+    color: #91979c;
+}
+.nav-item-a.active{
+    border-bottom: 1px solid #45187f;
+    padding-bottom: 10px;
+}
+.nav-item:not(:first-child) {
+    margin-left: 3rem;
+}
+.header-actions{
+    margin-left: 100px;
+}
+.header-actions .link-button{
+    border-radius:3rem;
+    background-color: #51d6ad;
+    padding:23px 57px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #fff;
+    min-height: 3.5rem;
+    
+}
+
+
+
+
+.header-actions .link{
+    margin-left: 50px;
+}
+
+/* 
+
+
+
+.nav{
+    display: inline;
+}
+.item:not(:first-child) {
+    margin-left: 3rem;
+    background-color: greenyellow;
+}
+
+body{
+    background-color: #45187f;
+}*/
